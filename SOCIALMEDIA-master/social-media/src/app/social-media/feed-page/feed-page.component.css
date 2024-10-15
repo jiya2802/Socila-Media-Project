@@ -1,0 +1,22 @@
+/* CSS for the red heart icon */
+.red-heart {
+  color: red; /* Change the color to red */
+}
+
+/* CSS for the animation */
+.heart-pulse {
+  animation: pulse 0.5s linear; /* Define the animation */
+}
+
+/* Keyframes for the animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1); /* Initial scale */
+  }
+  50% {
+    transform: scale(1.2); /* Scale up */
+  }
+  100% {
+    transform: scale(1); /* Back to original scale */
+  }
+}
